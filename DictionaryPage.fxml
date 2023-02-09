@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.worddic.DictionaryPageController" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bacada" height="400.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="94.0" layoutY="105.0" text="Search a Word" />
+      <Label layoutX="96.0" layoutY="183.0" text="Add New Word" />
+      <Label layoutX="97.0" layoutY="296.0" text="Find Meaning" />
+      <TextField fx:id="search" layoutX="95.0" layoutY="129.0" promptText="Enter Word to Search" />
+      <TextField fx:id="add1" layoutX="95.0" layoutY="210.0" promptText="Enter New Word" />
+      <TextField fx:id="add2" layoutX="94.0" layoutY="247.0" promptText="Enter Meaning of Word" />
+      <TextField fx:id="find" layoutX="94.0" layoutY="313.0" promptText="Enter Word to Search" />
+      <Button layoutX="317.0" layoutY="129.0" mnemonicParsing="false" text="Search" onMouseClicked="#search" textFill="#9a4482" />
+      <Button layoutX="317.0" layoutY="247.0" mnemonicParsing="false" text="Add Word" onMouseClicked="#Add" textFill="#a43d90" />
+      <Button layoutX="317.0" layoutY="313.0" mnemonicParsing="false" text="Find" onMouseClicked="#Find" textFill="#941bae" />
+   </children>
+</AnchorPane>
